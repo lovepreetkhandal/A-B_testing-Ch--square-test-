@@ -1,9 +1,9 @@
 # A-B_testing-Ch--square-test
 
-Applying Chi-Square Test For Independence
+## Applying Chi-Square Test For Independence
 
 
-State Hypotheses & Acceptance Criteria For Test
+### State Hypotheses & Acceptance Criteria For Test
 The very first thing we need to do in any form of Hypothesis Test is state our Null Hypothesis, our Alternate Hypothesis, and the Acceptance criteria.
 
 In the code above we code these in explcitly & clearly so we can utilise them later to explain the results. We specify the common Acceptance Criteria value of 0.05.
@@ -33,5 +33,5 @@ We have a Chi-Square Statistic of 1.94 and a p-value of 0.16. The critical value
 
 Note When applying the Chi-Square Test above, we use the parameter correction = False which means we are applying what is known as the Yate’s Correction which is applied when your Degrees of Freedom is equal to one. This correction helps to prevent overestimation of statistical signficance in this case.
 
-Analysing The Results
+### Analysing The Results
 At this point we have everything we need to understand the results of our Chi-Square test - and just from the results above we can see that, since our resulting p-value of 0.16 is greater than our Acceptance Criteria of 0.05 then we will retain the Null Hypothesis and conclude that there is no significant difference between the signup rates of Mailer 1 and Mailer 2.
